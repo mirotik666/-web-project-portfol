@@ -1,0 +1,166 @@
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('OpenSansRegular'),
+		url('./fonts/opensans-regular/opensans-regular.woff') format('woff'),
+		url('./fonts/opensans-regular/opensans-regular.ttf') format('truetype');
+	unicode-range: u+000-5ff;
+	/* Latin glyphs */
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src:
+		local('OpenSansSemiBold'),
+		url('./fonts/opensans-semibold/opensans-semibold.woff') format('woff'),
+		url('./fonts/opensans-semibold/opensans-semibold.ttf') format('truetype');
+	unicode-range: u+000-5ff;
+	/* Latin glyphs */
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('OpenSansBold'),
+		url('./fonts/opensans-bold/opensans-bold.woff') format('woff'),
+		url('./fonts/opensans-bold/opensans-bold.ttf') format('truetype');
+	unicode-range: u+000-5ff;
+	/* Latin glyphs */
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	src:
+		local('OpenSansExtraBold'),
+		url('./fonts/opensans-extrabold/opensans-extrabold.woff') format('woff'),
+		url('./fonts/opensans-extrabold/opensans-extrabold.ttf') format('truetype');
+	unicode-range: u+000-5ff;
+	/* Latin glyphs */
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 400;
+	src:
+		local('OpenSansItalic'),
+		url('./fonts/opensans-italic/opensans-italic.woff') format('woff'),
+		url('./fonts/opensans-italic/opensans-italic.ttf') format('truetype');
+	unicode-range: u+000-5ff;
+	/* Latin glyphs */
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 600;
+	src:
+		local('OpenSansSemiBoldItalic'),
+		url('./fonts/opensans-semibolditalic/opensans-semibolditalic.woff') format('woff'),
+		url('./fonts/opensans-semibolditalic/opensans-semibolditalic.ttf') format('truetype');
+	unicode-range: u+000-5ff;
+	/* Latin glyphs */
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 700;
+	src:
+		local('OpenSansBoldItalic'),
+		url('./fonts/opensans-bolditalic/opensans-bolditalic.woff') format('woff'),
+		url('./fonts/opensans-bolditalic/opensans-bolditalic.ttf') format('truetype');
+	unicode-range: u+000-5ff;
+	/* Latin glyphs */
+}
+
+body {
+	background: #f3f3f3;
+	color: rgb(119, 119, 119);
+	cursor: default;
+	font-family: 'Open Sans', sans-serif, 'PT Sans', Helvetica, Arial;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 21px;
+}
+
+a {
+	color: #e1524b;
+	line-height: 25px;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #bc4742;
+}
+
+p {
+	font-size: 14px;
+	font-style: normal;
+	color: #7f8c8c;
+	line-height: 1.6em;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif, 'PT Sans', Helvetica, Arial;
+	font-weight: 600;
+	font-size: 20px;
+	font-style: normal;
+	line-height: 24px;
+	color: #7f8c8c;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif, 'PT Sans', Helvetica, Arial;
+	font-weight: 600;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 21px;
+	color: #7f8c8c;
+	margin: 0;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif, 'PT Sans', Helvetica, Arial;
+	font-weight: 700;
+	font-size: 20px;
+	font-style: normal;
+	line-height: 24px;
+	color: #000;
+	margin: 0;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif, 'PT Sans', Helvetica, Arial;
+	font-weight: 600;
+	font-size: 20px;
+	font-style: normal;
+	line-height: 24px;
+	color: #7f8c8c;
+	margin: 0;
+}
+
+hr {
+	color: #e5e6e6;
+	line-height: 3px;
+	border: none;
+}
+
+blockquote {
+	border-left: 5px solid #7f8c8c;
+	margin-left: 70px;
+	padding-left: 25px;
+	font-size: 14px;
+}

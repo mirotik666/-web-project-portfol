@@ -1,0 +1,53 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.wordWrap": "on",
+	"files.autoSave": "onFocusChange",
+	"files.eol": "\n",
+	"jshint.enable": false,
+	"eslint.autoFixOnSave": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"javascript.format.enable": true,
+	"javascript.validate.enable": false,
+	"vetur.validation.template": false,
+	"stylelint.configOverrides": {
+		"fix": true
+	},
+	"eslint.validate": [
+		{
+			"language": "html",
+			"autoFix": true
+		},
+		{
+			"language": "vue",
+			"autoFix": true
+		},
+		{
+			"language": "javascript",
+			"autoFix": true
+		},
+		{
+			"language": "javascriptreact",
+			"autoFix": true
+		}
+	],
+	"eslint.options": {
+		"extensions": [
+			".html",
+			".js",
+			".vue",
+			".jsx"
+		]
+	},
+	"eslint.workingDirectories": [
+		"./src",
+		"./test"
+	],
+	"emmet.useNewEmmet": false,
+	"emmet.syntaxProfiles": {
+		"vue-html": "html",
+		"vue": "html"
+	}
+}
