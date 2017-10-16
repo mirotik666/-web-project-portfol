@@ -1,0 +1,9 @@
+.page-header {
+	height: 80px;
+	width: 100%;
+	position: relative;
+	/* background-image: ; */
+	background-repeat: repeat-x;
+	background-color: #234bcfb0;
+	z-index: 1;
+}

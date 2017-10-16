@@ -1,15 +1,15 @@
 <script>
-	// import PageHeader from '../components/page-header/page-header.vue';
-	// import MotivationInfo from '../components/motivation-info/motivation-info.vue';
+import PageHeader from '../components/page-header/page-header.vue';
 
-	// export default {
-	// 	components: { PageHeader, MotivationInfo }
-	// };
+
+
+export default {
+	components: { PageHeader }
+};
 </script>
 
 <template>
-	<!-- <body>
-			<page-header></page-header>
-			<motivation-info></motivation-info>
-		</body> -->
+	<body>
+		<page-header></page-header>
+	</body>
 </template>
