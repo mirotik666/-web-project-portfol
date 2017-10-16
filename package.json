@@ -4,11 +4,11 @@
 	"description": "Web site on VueJS",
 	"version": "1.1.0",
 	"license": "MIT",
-	"author": "Constantine Genchevsky",
+	"author": "",
 	"main": "src/index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/fabrikaodua/frontend-ui-modus.git"
+		"url": "https://mirotik666.github.io/-web-project-portfol.git"
 	},
 	"keywords": [
 		"vue",
